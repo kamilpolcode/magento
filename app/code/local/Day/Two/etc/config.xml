@@ -34,5 +34,17 @@
                 </day_two>
             </updates>
         </layout>
+        <events>
+            <controller_action_layout_generate_blocks_before>
+              <observers>
+                <day_two>
+                  <type>singleton</type>
+                  <class>day_two/debug_layout</class>
+                  <method>logCompiledLayout</method>
+                </day_two>
+              </observers>
+            </controller_action_layout_generate_blocks_before>
+      </events>
     </frontend>
+    
 </config>

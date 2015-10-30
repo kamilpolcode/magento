@@ -44,7 +44,11 @@
         <remove name="home.reports.product.compared"/>
     </reference>
     <reference name="header">
-        <block type="directory/currency" name="custom_currency_selector" template="currency/currency.phtml"/>
+        <!--
+        <reference name="top.container">
+            <block type="directory/currency" name="custom_currency_selector" template="currency/currency.phtml"/>
+        </reference>
+        -->
     </reference>
 </default>
 </layout>
