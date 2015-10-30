@@ -1,0 +1,46 @@
+<?php
+$products = $this->getBestSellers();
+?>
+<script type="text/javascript">
+    $(document).ready(function () {
+        try {
+            var oHandlerHorizontal = $("#carouseldiv").msCarousel({boxClass: 'div.set', width: 907, height: 302, scrollSpeed: 500}).data("msCarousel");
+            $("#next").click(function () {
+                oHandlerHorizontal.next();
+            });
+            $("#previous").click(function () {
+                oHandlerHorizontal.previous();
+            });
+
+        } catch (e) {
+            alert(e.message);
+        }
+
+    })
+</script>
+<div id="box-slide-offer">
+
+    <h2 class="box-title">Our Bestsellers</h2>
+
+    <div class="previous-btn">
+        <button name="previous" id="previous" type="button"><img alt="" src="http://magento.local/skin/frontend/NewPackage/NewTheme/images/prev-btn.jpg" /></button> 			
+    </div>	
+
+    <div class="next-btn">
+        <button name="next" id="next" type="button"><img alt="" src="http://magento.local/skin/frontend/NewPackage/NewTheme/images/next-btn.jpg" /></button> 				
+    </div>
+    <div id="carouseldiv">
+        <?php if (is_array($products) && count($products)) { ?>
+            <?php foreach ($products as $product) { ?>
+                <div class="set box-slide-product">
+                    <img alt="" src="<?php echo $product['img'] ?>" />		
+                    <h3 class="slider-product-title"><a href="<?php echo $product['url'] ?>"><?php echo $product['name'] ?></a></h3>
+                    <p class="box-slide-description"><?php echo $product['description'] ?></p>
+                    <p class="box-slide-price box-slide-price-discound">From &pound;<?php echo $product['price'] ?></p>
+                    <p class="box-slide-special-price">Special Price: &pound;<?php echo $product['special_price'] ?></p>
+                </div>
+            <?php } ?>
+        <?php } ?>
+        <div class="clr"></div>
+    </div>
+</div>

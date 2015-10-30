@@ -1,0 +1,38 @@
+.mscarousel {
+					overflow: hidden;}
+					
+.mscarousel img {
+					border: 0;}
+					
+.mscarousel .child {
+					position: relative;}
+					
+.mscarousel .child .set, .mscarousel .set {
+					float: left; 
+					position: relative;}
+					
+.mscarousel .child .set .message, .mscarousel .set .message {
+					/*position:absolute; top:0; left:0; background-color:#333333; color:#fff; display:none;*/}
+					
+.mscarousel .child .clear {
+					clear: both;}
+					
+.hand {
+					cursor:pointer;}
+
+#carouseldiv {
+					margin: 0 0 0 39px;}
+
+.previous-btn {
+					position: absolute;
+					top: 115px;
+					left: 0;}					
+
+.next-btn {
+					position: absolute;
+					top: 115px;
+					right: 0;}	
+
+.next-btn  button, .previous-btn button {
+					width: 36px;
+					height: 36px;}					

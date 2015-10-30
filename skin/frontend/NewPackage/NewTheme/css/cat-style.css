@@ -1,0 +1,225 @@
+﻿/* - breadcrumbs - */
+
+.breadcrumbs {
+    padding-top: 50px;
+    color: #7f7f7f;
+    margin: 13px 0 0 14px;}
+.breadcrumbs ul {
+    list-style: none;
+}
+.breadcrumbs ul li {
+    display: inline;
+}
+
+/* - left - */
+
+#left {
+    float: left;
+    color: #666;
+    width: 190px;
+    margin: 25px 0 0 5px;}					
+
+.left-box {
+    margin: 0 0 40px 0;}
+
+.left-box-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #b42a48;
+    padding: 0 0 9px 8px;
+    margin: 0 0 9px 0;
+    border-bottom: 1px solid #ccc;}		
+
+.left-box h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: #444;}
+
+.left-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+
+.left-box li {
+    margin: 0 0 3px 0;
+    line-height: 15px;}					
+
+.left-box a {
+    color: #666;}	
+
+.left-box a:hover {
+    color: #a9092c;}	
+
+.left-box-small {
+    margin: 0 0 17px 8px;}		
+
+.recently-view {
+    margin: 0 0 0 8px;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #ccc;}					
+
+.recently-view  .left-box-title {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 9px 0;
+    color: #b42a48;}	
+
+.recently-view img {
+    margin: 0 15px 20px 0;
+    float: left;} 
+
+.recently-view li {
+    clear: both;
+    height: auto;
+    color: #333;}	
+/* - right - */
+
+#right {
+    width: 749px;
+    float: right;
+    margin: 50px 0 0 0;}	
+
+/* - top baner - */					
+
+#comercial-baner {
+    border: 1px solid #ccc;
+    padding: 6px;
+    margin: 0 0 10px 0;}
+
+/* - two baners - */	
+
+#comecial-description h3, #comecial-description p {		
+    margin: 0 0 3px 0;}	
+
+#comecial-description a {
+    color: #333;
+    text-decoration: underline;}	
+
+#comecial-description a:hover {
+    color: #a9092c;
+    text-decoration: none;}	
+
+#comecial-description-left, #comecial-description-right {
+    width: 269px;
+    padding: 11px 10px 13px 85px;
+    background: #fff url(../images/quata.jpg) top left no-repeat;}				
+
+#comecial-description-left {
+    float: left;
+    border-right: 1px solid #ccc;}					
+
+#comecial-description-right {
+    float: right;}						
+
+/* - products - */					
+
+#products-category {
+    margin: 18px 0 0 0;}					
+
+/* to samo co w style dla slide box tylko zmieniona nazwa i rozmiar zdjęcia */
+
+.products-category-box {
+    float: left;
+    border-bottom: 1px solid #ccc;
+    width: 160px;
+    height: auto;
+    height: 257px;
+    padding: 0 0 4px 0;
+    text-align: center;
+    min-height: 257px;
+    margin: 12px 13px;}
+
+.box-title {
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 19px 0;
+    color: #555;}					
+
+.products-category-title {
+    font-weight: normal;
+    height: auto;
+    margin: 5px 10px 2px 10px;
+    height: 28px;
+    color: #444;
+    font-size: 11px;
+    min-height: 28px;}	
+
+.products-category-description {
+    font-size: 10px;
+    line-height: 11px;
+    color: #8f8f8f;
+    margin: 0 0 3px 0;}
+
+.products-category-price, .products-category-price-discound {
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 0 2px 0;}	
+
+.products-category-price-discound {
+    text-decoration: line-through;}					
+
+.products-category-special-price {
+    font-weight: bold;
+    color: #a80d2c;
+    margin: 1px 0 2px 0;}	
+
+#products-category-bottom-description p {
+    line-height: 16px;
+    margin: 0 0 14px 0;}	
+
+/* - item - */					
+
+.items {
+    background: #fff url(../images/bg-item.jpg) top left no-repeat;
+    margin: 0 0 18px 0;
+    padding: 4px 15px 5px 20px;}	
+
+.items select {
+    font-size: 11px;
+    padding: 1px;
+    color: #666;}					
+
+.items-bottom {
+    margin: 8px 0;}			
+
+.item-count {
+    float: left;
+    font-weight: bold;
+    color: #333;
+    margin: 2px 0 0 0;
+    width: 200px;}
+
+.sort-by {
+    margin: 0 0 0 68px;}
+
+.item-sort {
+    float: right;
+    width: 310px;}					
+
+.arrow-up {
+    margin: 0 0 0 5px;
+    font-size: 13px;
+    color: #ea6705;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">  
+ <default>
+    <reference name="head">
+        <!--
+        <action method="addJs">
+            <script>lib/jquery/jquery-1.10.2.min.js</script>
+        </action>
+        -->
+        <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery-1.6.1.min.js</name>
+        </action>
+        <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery.nivo.slider.pack.js</name>
+        </action>
+        <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery.nivo.slider.js</name>
+        </action>
+        <action method="addItem">
+                <type>skin_js</type>
+                <name>js/jquery.msCarousel-min.js</name>
+        </action>
+        <action method="addItem">
+                <type>skin_css</type>
+                <name>js/nivo-slider.css</name>
+        </action>
+        <action method="addItem">
+                <type>skin_css</type>
+                <name>js/mscarousel.css</name>
+        </action>
+        <action method="addItem">
+                <type>skin_css</type>
+                <name>css/single-style.css</name>
+        </action>
+        <action method="addItem">
+                <type>skin_css</type>
+                <name>css/cat-style.css</name>
+        </action>
+        <remove name="home.reports.product.viewed"/>
+        <remove name="home.catalog.product.new"/>
+        <remove name="home.reports.product.compared"/>
+    </reference>
+    <reference name="header">
+        <block type="directory/currency" name="custom_currency_selector" template="currency/currency.phtml"/>
+    </reference>
+</default>
+</layout>

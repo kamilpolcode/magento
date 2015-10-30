@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <global>
+        <blocks>
+            <day_two>
+                <class>Day_Two_Block</class>
+            </day_two>
+        </blocks>
+        <models>
+            <day_two>
+                <class>Day_Two_Model</class>
+            </day_two>
+        </models>
+        <helpers>
+            <day_two>
+                <class>Day_Two_Helper</class>
+            </day_two>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <day_two>
+                <use>standard</use>
+                <args>
+                    <module>Day_Two</module>
+                    <frontName>heyo</frontName>
+                </args>
+            </day_two>
+        </routers>
+        <layout>
+            <updates>
+                <day_two>
+                    <file>layout.xml</file> <!-- Our layout file name-->
+                </day_two>
+            </updates>
+        </layout>
+    </frontend>
+</config>

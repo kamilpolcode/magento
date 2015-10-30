@@ -1,0 +1,329 @@
+﻿/* - single left - */
+
+#single-left {
+					color: #666;
+					width: 428px;
+					float: left;
+					margin: 25px 0 0 14px;}
+					
+/* - thumb left - */					
+					
+#thumb-left {
+					float: left;
+					width: 64px;}
+
+#thumb-left  img {
+					margin: 0 0 15px 0;}
+
+/* - big foto description - */					
+					
+#single-thumb-right {
+					float: right;
+					width: 351px;}
+					
+.single-description {
+					text-align: right;
+					margin: 5px 0 0 0;}					
+
+.perfect-with {
+					margin: 10px 0 0 0;
+					}					
+					
+.perfect-with h3 {
+					color: #333;
+					margin: 0 0 10px 0;}					
+					
+.perfect-with-img {
+					float: left;
+					width: 78px;
+					margin: 0 33px 0 0;}	
+
+.perfect-with-img  img {
+					border: 1px solid #7f7f7f;}					
+
+/* to samo co w style dla slide box i category product tylko drobne zmiany */
+					
+.perfect-with-desc {
+					font-weight: normal;
+					height: auto;
+					margin: 5px 10px 4px 0;
+					height: 28px;
+					font-size: 11px;
+					min-height: 28px;}					
+					
+.perfect-with-price, .perfect-with-price-sale {
+					font-weight: bold;
+					font-size: 11px;
+					margin: 0 0 2px 0;}					
+					
+.perfect-with-discount {
+					text-decoration: line-through;}
+					
+.perfect-with-price-sale {
+					font-weight: bold;
+					color: #a80d2c;
+					margin: 1px 0 2px 0;}		
+
+/* - single right - */					
+					
+#single-right {	
+					float: right;
+					margin: 25px 0 0 0;
+					width: 476px;}
+
+#single-right h2 {
+					font-size: 22px;
+					color: #333;
+					font-weight: normal;
+					margin: 0 0 6px 0;}
+					
+.single-p-desc {
+					font-size: 12px;
+					color: #666;}					
+
+/* - customers help - */					
+					
+#customers-help {
+					margin: 15px 0 0 14px;
+					height: auto;
+					background: #fff url(../images/line.jpg) top center no-repeat;
+					padding: 30px 0 0 0;}
+					
+#customers-help h3 {
+					font-size: 18px;
+					color: #333;
+					font-weight: normal;
+					margin: 0 0 8px 0;}
+
+.customers-reviews {
+					float: left;
+					height: auto;
+					width: 690px;}
+					
+.customres-box {
+					width: 628px;
+					padding: 25px;
+					color: #999;
+					border: 1px solid #ccc;
+					height: 96px;}					
+
+.need-help {
+					float: right;
+					width: 256px;}  					
+
+.customres-box-big {
+					font-size: 16px;
+					font-weight: bold;}
+
+.customres-box-small {		
+					font-size: 12px;}
+
+.need-help ul {
+					margin: 0;
+					padding: 0;
+					list-style: none;}
+					
+.need-help li {
+					margin: 0 0 2px 0;}
+
+.need-help a {
+					color: #333;
+					text-decoration: underline;}
+
+.need-help a:hover {
+					text-decoration: none;
+					color: #a9092c;}					
+
+/* - buy more - */
+
+#buy-more {
+					margin: 40px 0 0 14px;
+					background: #fff url(../images/line.jpg) top center no-repeat;
+					padding: 20px 0 0 0;}
+					
+#buy-more h3 {
+					font-size: 18px;
+					color: #333;
+					font-weight: normal;
+					margin: 0 0 20px 0;}
+					
+.buy-more-box {
+					float: left;
+					width: 160px;
+					height: 260px;
+					border-bottom: 1px solid #ccc;
+					text-align: center;
+					margin: 0 70px 0 0;}
+			
+.buy-more-title {
+					font-weight: normal;
+					height: auto;
+					margin: 5px 10px 2px 10px;
+					height: 28px;
+					color: #444;
+					font-size: 11px;
+					min-height: 28px;}	
+					
+.buy-more-description {
+					font-size: 10px;
+					line-height: 11px;
+					color: #8f8f8f;
+					margin: 0 0 3px 0;}
+
+.buy-more-price, .products-category-price-discound{
+					font-weight: bold;
+					font-size: 11px;
+					margin: 0 0 2px 0;}	
+					
+.products-category-price-discound {
+					text-decoration: line-through;}					
+
+.buy-more-special-price {
+					font-weight: bold;
+					color: #a80d2c;
+					margin: 1px 0 2px 0;}					
+										
+/* - single-product-information - */
+
+#single-product-information {
+					margin: 20px 0 0 0;}
+					
+.product-tab {
+					width: 70px;
+					font-weight: bold;
+					padding: 9px 0;
+					color: #666;
+					font-size: 12px;}			
+
+td select, td input {
+					padding: 1px 1px 1px 4px;
+					border: 1px solid #7f7f7f;}
+
+td input {
+					width: 21px;
+					text-align: center;}
+
+.product-availability {
+					margin: 0 0 0 25px;
+					color: #666;
+					font-size: 12px;
+					font-weight: bold;}
+					
+.product-price {
+					font-size: 18px;
+					font-size: 18px;
+					padding: 1px 0 0 0;
+					font-weight: bold;}					
+
+.product-add {
+					width: 440px;
+					height: 22px;
+					margin: 15px 0 0 0;}
+					
+.product-add button {
+					width: 122px;
+					background: #fff url(../images/single-button.jpg) top left no-repeat;
+					border: 0px solid #999;
+					color: #fff;
+					text-align: center;
+					font-weight: bold;
+					height: 22px;}							
+					
+.product-extra-menu {
+					margin: 0 0 0 28px;}	
+
+.product-extra-menu a {
+					margin: 0 4px;
+					font-size: 10px;
+					color: #333;
+					text-decoration: underline;}					
+
+.product-extra-menu a:hover {
+					color: #a9092c;
+					text-decoration: none;}	
+
+/* - product details - */					
+
+#product-details {
+					margin: 25px 0 0 0;
+					padding: 0 6px 6px 0;
+					width: 431px;
+					height: 246px;
+					background: #fff url(../images/shadow-single-product.jpg) bottom right no-repeat;}
+
+ul#product-details-menu {
+					margin: 0 0 -1px 0;
+					padding: 0;
+					float: left;
+					list-style: none;}
+					
+ul#product-details-menu li {
+					float: left;
+					margin: 0 5px 0 0;
+					background: #fff url(../images/product-details-menu.jpg) top left no-repeat;}
+					
+ul#product-details-menu a {
+					color: #333;
+					text-decoration: none;
+					display: block;
+					padding: 11px 0 9px 0;
+					width: 102px;
+					text-align: center;}		
+
+ul#product-details-menu a:hover {
+					color: #a9092c;}					
+
+#product-details-menu-last {
+					margin: 0;}	
+
+#product-details-menu-curent a {
+					background: #fff url(../images/product-details-menu-curent.jpg) top left no-repeat;}				
+
+.product-details-tab {
+					clear: left;
+					width: 390px;
+					height: 170px;
+					padding: 20px;
+					border: 1px solid #d2d6d9;
+					color: #666;}
+
+.product-details-tab  p {
+					margin: 0 0 14px 0;}		
+
+.product-details-tab ul {
+					margin: 0;
+					padding: 0;
+					list-style: none;}
+
+.product-details-tab li {
+					margin: 0 0 3px 0;}					
+
+
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+					
+					
